@@ -1,4 +1,4 @@
-# Demo for TBS and TAP
+# My blog Demo for TBS and TAP
 
 This repo contains a simple blog that can be deployed as a TAP workload.
 
