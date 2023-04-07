@@ -1,11 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: blog-backend
+  name: blog
   description: APi Backend for blog
   tags:
-    - api
-    - backend
     - blog
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=blog'
