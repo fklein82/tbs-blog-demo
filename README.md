@@ -24,6 +24,6 @@ You may replace the code inside this default function with your logic.
 To add the accelerator in Tanzu Application Platform
 
 ~~~
-tanzu acc create inclusion-node-front --git-repo https://github.com/fklein82/tbs-blog-demo --git-branch main --interval 5s\n
+tanzu acc create myblog --git-repo https://github.com/fklein82/tbs-blog-demo --git-branch main --interval 5s\n
 ~~~
 
