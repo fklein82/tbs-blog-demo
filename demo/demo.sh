@@ -5,7 +5,7 @@ go to your registry -> https://registry.fklein.me/
 ### DEMO 1 --> Accelerate Path to Production
 
 #### Create the OCI image and push to registry
-kp image create fkleinblog --tag registry.fklein.me/tbs/fkleinblog:1.0 --git https://github.com/fklein82/tbs-blog-demo.git --git-revision main -n dev
+kp image create fkleinblog --tag registry.fklein.me/tbs/fkleinblog:1.1 --git https://github.com/fklein82/tbs-blog-demo.git --git-revision main -n dev
 
 ### Show the log
 kp build logs fkleinblog -n dev
@@ -14,7 +14,7 @@ kp build logs fkleinblog -n dev
 https://registry.fklein.me/harbor/projects/23/repositories
 
 ### deploy the container on Kubernetes
-k create deployment blog --image=registry.fklein.me/tbs/fkleinblog:1.0 --port=8080
+k create deployment blog --image=registry.fklein.me/tbs/fkleinblog:1.1 --port=8080
 
 ### expose the app
 kubectl expose deployment blog --port 80 --type LoadBalancer --target-port=8080
