@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: blog
+  name: blog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blog
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: blog
+    spec:
+      containers:
+      - image: registry.fklein.me/tbs/fkleinblog:1.0
+        name: fkleinblog
+        ports:
+        - containerPort: 8080
+        resources: {}
+status: {}
