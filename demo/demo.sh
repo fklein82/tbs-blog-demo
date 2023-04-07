@@ -26,3 +26,17 @@ k get svc
 kp image delete fkleinblog -n dev && k delete service blog && k delete deployment blog
 
 ### DEMO 2 --> Simplify Day 2 Operations
+## check if the image exist
+kp image list -n dev
+
+# change the code
+Update index.html
+
+# check the change
+watch kp build list blog -n dev
+
+# Deploy the app again
+
+k get pod
+k delete
+
