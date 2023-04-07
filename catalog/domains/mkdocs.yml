@@ -1,4 +1,4 @@
-site_name: 'Emoji Domain'
+site_name: 'blog Domain'
 
 nav:
   - Home: index.md

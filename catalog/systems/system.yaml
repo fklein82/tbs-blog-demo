@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name:  emoji-portal
-  description: Emoji Portal
+  name:  blog-portal
+  description: blog Portal
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:

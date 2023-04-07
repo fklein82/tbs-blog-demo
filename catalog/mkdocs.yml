@@ -1,4 +1,4 @@
-site_name: 'inclusion-service'
+site_name: 'blog-service'
 
 nav:
   - Home: index.md

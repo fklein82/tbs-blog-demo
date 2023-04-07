@@ -1,15 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: api-backend
-  description: APi Backend for Emoji Generator
+  name: blog-backend
+  description: APi Backend for blog
   tags:
     - api
     - backend
-    - inclusion
-    - emoji
+    - blog
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=inclusion'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=blog'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service

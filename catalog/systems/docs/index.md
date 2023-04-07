@@ -1,3 +1,3 @@
-# Emoji World
+# Blog
 
-The Emoji World is currently composed of the Inclusion Service and the PostgreSQL database.
+The Blog is currently a web portal in NodeJS + Express server.

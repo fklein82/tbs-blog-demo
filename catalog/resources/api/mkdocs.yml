@@ -1,4 +1,4 @@
-site_name: 'inclusion-database'
+site_name: 'blog-database'
 
 nav:
   - Home: index.md
