@@ -7,4 +7,4 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: team-vmware-tanzu-se
-  domain: emoji-portal-domain
+  domain: blog-portal-domain
