@@ -14,4 +14,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-vmware-tanzu-se
-  system: emoji-portal
+  system: blog-portal

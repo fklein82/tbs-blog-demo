@@ -4,7 +4,7 @@ metadata:
   name: blog
   description: Service collecting all emojis
   tags:
-    - inclusion
+    - blog
     - node
     - express
     - tanzu
@@ -18,6 +18,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-vmware-tanzu-se
-  system: emoji-portal
+  system: blog
   dependsOn:
     - Resource:api-backend
