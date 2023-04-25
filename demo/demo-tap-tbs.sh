@@ -9,6 +9,7 @@ k apply -f /Users/kfrederic/Documents/GitHub/TAP/Demo/secret-emoji-azuredb.yaml
 kp image list -n demotbs
 kp image delete fkleinblog -n demotbs
 k delete deployment blog -n demotbs
+k delete service blog -n demotbs
 
 ### Debug TAP UI
 k get pod -n tap-gui
