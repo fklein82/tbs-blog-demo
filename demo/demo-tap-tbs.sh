@@ -11,6 +11,10 @@ kp image delete fkleinblog -n demotbs
 k delete deployment blog -n demotbs
 k delete service blog -n demotbs
 
+kubectx gke_kfrederic_europe-west1_tap142-gke-run
+k delete deliverable inclusion-frontend-web -n dev
+kubectx tap-demo1-3
+
 ### Debug TAP UI
 k get pod -n tap-gui
 k delete pod server-677d6c9d6b-8wcv9 -n tap-gui
@@ -23,6 +27,7 @@ http://tap-gui.tanzu.fklein.me/
 
 ### APP  Start Code Frontend -> Accelerateur
 # Generate Accelerator & Deploy
+kubectx tap-demo1-3
 cd /Users/kfrederic/Desktop/myblog
 tanzu apps workload create -f config/workload.yaml -n dev
 
